@@ -43,7 +43,7 @@ public static String CoursePrice() {
 			+ "  \r\n"
 			+ "  \"courses\": [\r\n"
 			+ "{\r\n"
-			+ "\"title\":\"Selenium Pythin\",\r\n"
+			+ "\"title\":\"Selenium Python\",\r\n"
 			+ "  \"price\":50,\r\n"
 			+ "  \"copies\":6  \r\n"
 			+ "}\r\n"

@@ -24,8 +24,10 @@ public class complexJsonParse {
 
 		// Print All courses titles and their respective prices
 		for (int i = 0; i < totalCourses; i++) {
-			System.out
-					.println(js.getString("courses[" + i + "].title") + " " + js.getString("courses[" + i + "].price"));
+			String title = js.getString("courses[" + i + "].title") ;
+			String price =js.getString("courses[" + i + "].price");
+			
+			System.out.println(title +" "+ price);
 		}
 
 		// Number of copies sold by RPA Course
